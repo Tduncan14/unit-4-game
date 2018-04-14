@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+     <title>CrystalCollector</title>
+     <link rel ="stylesheet" href="assets/reset.css" type ="text/css">
+     <link rel="stylesheet" href="assets/crystals.css" type="text/css">
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+     <script src ="assets/crystal.js"></script>
+ </head>
+  <body>
+ <div id="masterContainer">
+      <header>
+          <h1>Crystal Collector</h1>
+      </header>
+    <section id = "instructions">
+         
+
+                    <p> You will be given a random number at the start of the game.</p>
+            
+                    <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            
+                    <p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+            
+                    <p> Each time the game starts, the game will change the values of each crystal.</p>
+            
+                
+    </section>
+    <section id="container">
+   
+
+  
+
+
+    <div id="displayedPoints">
+      <div id="captureNumber"></div>
+    </div>
+
+<div id ="statusRecord">
+    <p id="wins">wins:0</p>
+    <p id ="loses">losses:0</p>
+
+</div>
+  
+<div style="clear:both"></div>
+
+  <div id ="crystals">
+     <button><img src="images/red.png" alt="red crystal" height="70px" width ="70px" class ="crystal gem1 red"  value='1'></button>
+     <button><img src ="images/blue.png" alt="blue crystal" height ="70px" width="70px" class=" crystal gem2 blue" value='2'></button> 
+     <button> <img src = "images/yellow.png" alt="yellow crystal" height ="70px" width ="70px" class =" crystal gem3 yellow" value='3'></button>
+     <button> <img src = "images/green.png" alt="green crystal" height ="70px" width ="70px" class = " crystal gem4 green" value='4'></button>
+  </div>
+
+  
+  <div>
+      <p id="yourScore">your points is </p>
+  </div>
+
+<div id="totalOutcome">
+ 
+</div>
+
+  </div>
+
+  </body>
+ </html>

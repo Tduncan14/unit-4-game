@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-image: url("../images/background.jpg");
+    line-height:32px;
+}
+
+h1{ background-color:orange;
+     color:white;
+     display:inline-block;
+     clear:both;
+     margin-top:30px;
+     padding:10px;
+     margin-bottom:20px;
+     font-size: 55px;
+     
+}
+
+#masterContainer{
+    margin-left:10px;
+}
+
+#instructions{
+ background-color:beige;
+ color:darkgreen;
+ display:inline-block;
+ padding: 50px;
+}
+
+#displayedPoints{
+    background-color: lightgreen;
+    height:100px;
+    width: 250px;
+    margin-top:20px;
+    float:left;
+}
+/*==============Holds the wins and losses=================================================================================================================*/
+#statusRecord{ background-color:lightblue;
+          color:green;
+          float:left;
+          margin-top:20px;
+          clear:right;
+          margin-left:10px;
+          padding:7px;
+          height:85px;}
+
+#crystals{
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+
+
+          
+#yourScore{
+    background-color:teal;
+    display:inline;
+    padding-right:157px;
+    color:white;
+}
+
+#totalOutcome{
+     height:200px;
+     width:245px;
+     background-color:teal;
+     margin-top:20px;
+     margin-bottom:20px;
+     font-size:30px;
+     color:white;
+}
